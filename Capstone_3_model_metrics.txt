@@ -1,0 +1,25 @@
+﻿Model: K-means Clustering (Final Model)
+
+
+Features:
+- Stratum-level species composition (proportion of live weight per species)
+- Spatiotemporal strata: unique combinations of YEAR, MONTH, QDSQ
+
+
+Parameters / Hyperparameters:
+- n_clusters: 8
+- random_state: 42
+- init: k-means++ (default)
+- n_init: 10 (default)
+- max_iter: 300 (default)
+- tol: 1e-4 (default)
+- algorithm: auto (default)
+
+
+Performance Metrics:
+- Silhouette Score (train): 0.277
+- Silhouette Score (holdout): 0.254
+
+
+Notes:
+- Hierarchical clustering was also evaluated with n_clusters=8
